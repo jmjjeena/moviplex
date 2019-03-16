@@ -43,6 +43,15 @@ nav a:hover {
 }
 
 /* MovieList */
+.title {
+  font-family: 'Hind', sans-serif;
+  color: #ffce26;
+  font-size: 18px;
+  margin: 0 10px;
+  width: 100%;
+  letter-spacing: 1px;
+  line-height: 48px;
+}
 .movie-menu {
   color: #ffce26;
   font-size: 18px;

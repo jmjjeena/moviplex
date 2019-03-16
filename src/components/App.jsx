@@ -11,6 +11,7 @@ class App extends React.Component {
           <a id = "logo" href="#">MoviPlex</a>
         </nav>
         <div className = "movie-list">
+        <div className = "title"><h2>Movie List</h2></div>
           {/* passing in the props to the movie list */}
           <MovieList />
         </div>
