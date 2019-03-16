@@ -1,4 +1,9 @@
+import MovieList from './MovieList.js';
 class App extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
   render() {
     return (
       <div className = "main-container">
@@ -6,7 +11,8 @@ class App extends React.Component {
           <a id = "logo" href="#">MoviPlex</a>
         </nav>
         <div className = "movie-list">
-        <div className = "movie-menu">MovieList</div>
+          {/* passing in the props to the movie list */}
+          <MovieList />
         </div>
       </div>
     )
@@ -14,3 +20,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+// movies={window.movieData}
