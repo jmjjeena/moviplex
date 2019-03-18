@@ -7,6 +7,12 @@ body {
   background-color: #343434;
 }
 
+.main-container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /* nav */
 nav {
@@ -43,11 +49,46 @@ nav a:hover {
   margin-top: -20px;
 }
 
-.main-container{
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+/* Search */
+.search {
+  flex: 1;
+}
+
+.search input {
+  display: inline-block;
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  transition: all .18s ease;
+  touch-action: manipulation;
+  cursor: text;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: .9rem;
+  background: transparent;
+  color: #fff;
+  border: none; 
+  letter-spacing: 1px;
+  background: rgba(221, 221, 221, 0.2);
+}
+
+.search-bar{
+  padding: 15px 35px 10px 1px;
+}
+
+.btn{
+  background: transparent;
+  color: #fff;
+  width: 60px;
+  border: none;
+  height: 100%;
+  max-height: 250px;
+  cursor: pointer;
+  text-align: center;
+  zoom: 1;
+  font-size: .9rem;
+  overflow: visible;
+  letter-spacing: 1px;
 }
 
 /* MovieList */
@@ -69,30 +110,22 @@ nav a:hover {
   line-height: 48px;
 }
 
-.movie-list {
-  color: #ffce26;
-  font-size: 18px;
-  margin: 0 10px;
-  width: 100%;
-  letter-spacing: 1px;
-  line-height: 48px;
-}
 
 .movie-container {
   display: block;
-  height: 70px;
+  height: 50px;
   font-family: "Open Sans", open-sans, sans-serif;
   font-size: 1.2rem;
-  color: #d5dbdf;
-  line-height: 1.5;
-  grid-row-gap: 15px;
+  color: #fbfdfd;
   justify-items: start;
   align-items: center;
   text-align: left;
   cursor: pointer;
-  border: 1px solid #0c0c0c;
-  border-radius: 4px;
-  margin: 0px auto;
-  padding: 40px 10px 0;
+  border: 3px solid #0c0c0c;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 10px;
   transition: all .2s ease-in-out;
 }
