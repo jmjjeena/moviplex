@@ -90,7 +90,11 @@ nav a:hover {
   overflow: visible;
   letter-spacing: 1px;
 }
-
+.error-line{
+  color: #fbfdfd;
+  font-size: 1.2rem;
+  padding-left:10px;
+}
 /* MovieList */
 .title {
   font-family: 'Hind', sans-serif;
@@ -110,12 +114,10 @@ nav a:hover {
   line-height: 48px;
 }
 
-
 .movie-container {
   display: block;
   height: 50px;
   font-family: "Open Sans", open-sans, sans-serif;
-  font-size: 1.2rem;
   color: #fbfdfd;
   justify-items: start;
   align-items: center;
